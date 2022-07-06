@@ -190,3 +190,50 @@ ul {
   font-size: 1.6rem;
 }
 
+.projetos-bg {
+  background-color: #F5F5F5;
+  padding: 32px 0;
+}
+
+.projetos-bg h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 32px;
+}
+
+.projetos-item {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 55px;
+}
+
+.projetos-infor h3 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+.projetos-infor span {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.repo {
+  color: #2A7AE4;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: inline-block;
+  padding: 16px;
+  border: 1px solid #2A7AE4;
+  margin-right: 16px;
+}
+
+.demo {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #2A7AE4;
+  display: inline-block;
+  padding: 16px;
+}
