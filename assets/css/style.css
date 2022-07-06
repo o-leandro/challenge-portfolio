@@ -3,10 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  color: #464646;
 }
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  margin-bottom: 1000px;
 }
 
 a {
@@ -116,5 +121,46 @@ ul {
   font-size: 1.6rem;
   max-width: 750px;
   margin-bottom: 16px;
+}
+
+.skills-hobbies-bg {
+  background-color: #F5F5F5;;
+}
+
+.skills-hobbies-content h2{
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 32px 0;
+}
+
+.skills-hobbies {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 16px 16px;
+  background-color: #fff;
+  height: 175px;
+  margin-bottom: 88px;
+}
+
+.item img {
+  margin-bottom: 8px;
+}
+
+.item h3 {
+  font-size: 1.6rem ;
+}
+
+.hobbies-content h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 32px;
 }
 
