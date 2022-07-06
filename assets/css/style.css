@@ -208,6 +208,10 @@ ul {
   margin-bottom: 55px;
 }
 
+.projetos-item:nth-child(4 ) {
+  margin-bottom: 0;
+}
+
 .projetos-infor h3 {
   font-size: 2.2rem;
   margin-bottom: 8px;
@@ -236,4 +240,58 @@ ul {
   background-color: #2A7AE4;
   display: inline-block;
   padding: 16px;
+}
+
+.contato-bg {
+  background-color: #EAF2FD;
+}
+
+.contato {
+  display: flex;
+  gap: 16px;
+  padding: 130px 0 65px 0;
+}
+
+.contato-content h2 {
+  font-size: 3.2rem;
+  margin-bottom: 8px;
+}
+
+.contato-content p {
+  font-size: 1.6rem;
+  margin-bottom: 32px;
+}
+
+form  input{
+  display: block;
+  border: none;
+  margin-bottom: 32px;
+  width: 656px;
+  height: 56px;
+  outline: none;
+  padding: 8px 0 0 12px;
+  border-bottom: 2px solid transparent;
+}
+
+form  input:focus, form textarea:focus {
+  border-bottom: 2px solid #2A7AE4;
+}
+
+form textarea {
+  width: 656px;
+  border: none;
+  padding: 8px 0 0 12px;
+  margin-bottom: 32px;
+  outline: none;
+  border-bottom: 2px solid transparent;
+}
+
+form button {
+  color: #fff;
+  background-color: #2A7AE4;
+  font-size: 1.6rem;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
 }
