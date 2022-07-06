@@ -164,3 +164,29 @@ ul {
   margin-bottom: 32px;
 }
 
+.formacao-bg {
+  background-color: #EAF2FD;
+  padding: 82px 0;
+}
+
+.formacao-bg h2 {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 32px;
+}
+
+.formacao-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.formacao-item h3 {
+  font-size: 2.2rem;
+  margin: 8px 0;
+}
+
+.formacao-item span {
+  font-size: 1.6rem;
+}
+
