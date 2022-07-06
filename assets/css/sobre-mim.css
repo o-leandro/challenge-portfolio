@@ -1,0 +1,43 @@
+ .sobre-mim-bg {
+  background-color: #EAF2FD;
+}
+
+.sobre-mim {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.sobre-mim h2 {
+  color: #464646;
+  font-size: 3.2rem;
+  margin-bottom: 16px;
+}
+
+.sobre-mim p {
+  color: #464646;
+  font-size: 1.6rem;
+  max-width: 750px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mim {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .sobre-mim h2 {
+    font-size: 2.2rem;
+  }
+
+  .sobre-mim p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .sobre-mim {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
